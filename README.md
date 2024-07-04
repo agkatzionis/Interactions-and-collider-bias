@@ -1,6 +1,6 @@
 # Interactions-and-collider-bias
 
-This repository contains R code in support of the paper "Relationship between Collider Bias and Interactions on the Log-Additive Scale" (A. Gkatzionis et al. 2023).
+This repository contains R code in support of the paper "Relationship between Collider Bias and Interactions on the Log-Additive Scale" (A. Gkatzionis et al. 2023). [Link to arXiv version](https://arxiv.org/abs/2308.00568)
 
 Suppose that we wish to investigate the association between an exposure X and an outcome Y, but we can only observe exposure and outcome values conditional on the value of a third variable S. For example, S may represent selection into a study (1: yes, 0: no), in which case we can only observe X and Y conditional on S = 1. In this case, we are interested in the unconditional X-Y association, but based on the available data we can only estimate the conditional X-Y association given S = 1. If X and Y affect S, the conditional and unconditional associations will differ; this phenomenon is known as **collider bias**.
 
